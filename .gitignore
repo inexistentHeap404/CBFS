@@ -1,2 +1,28 @@
-./documents/*
-./__pycache__/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local uploaded documents
+/documents/*
+
+# Keep the documents directory in Git
+!/documents/.gitkeep
+
+# Environment variables
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
