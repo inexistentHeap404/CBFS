@@ -344,7 +344,7 @@ class LocalSearch:
                 iid=result["filename"],
                 values=(
                     result["filename"],
-                    f"{result['similarity']:.4f}"
+                    f"{result['similarity']* 100:.2f}%"
                 )
             )
 
